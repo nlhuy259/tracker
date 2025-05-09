@@ -1,0 +1,38 @@
+.filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.filter select,
+.filter button {
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.filter select:focus,
+.filter button:focus {
+    border-color: #4CAF50; /* nice green focus */
+}
+
+.filter button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.filter button:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,26 @@
+.orb {
+	width: 70vh;
+	height: 70vh;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-radius: 50%;
+	background: linear-gradient(180deg, #F56692 0%, #F2994A 100%);
+	filter: blur(400px);
+	transform: translate(-50%, -50%);
+	animation: moveOrb 15s alternate linear infinite;
+	z-index: 0;
+  }
+  
+  @keyframes moveOrb {
+	0% {
+	  transform: translate(-50%, -50%);
+	}
+	50% {
+	  transform: translate(30%, 30%);
+	}
+	100% {
+	  transform: translate(-50%, -50%);
+	}
+  }
+  
